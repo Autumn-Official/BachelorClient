@@ -76,3 +76,16 @@ Mac（苹果硅）配备AVD（Android Studio）（推荐：arm64、Android 15、
 ### 2.运行客户端
 
 1. 跑“main.cmd”。
+
+
+### 在模拟器上使用
+
+模拟器上目前需要使用16.6.6版本的frida版本进行hook
+
+所以想要在模拟器版本上使用时前运行[set_frida1666.cmd](set_frida1666.cmd)
+
+然后再运行[setup.cmd](setup.cmd)
+
+如果要换成arm机器跑就运行[set_frida1762.cmd](set_frida1762.cmd)
+
+然后再运行一遍[setup.cmd](setup.cmd)
