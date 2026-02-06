@@ -37,3 +37,42 @@ Mac (Apple silicon) with AVD (Android Studio) (recommended: arm64, Android 15, G
 
 1. Run `main.cmd`.
 
+
+
+# OpenBachelorC
+
+OpenBachelor客户。关于PvZ在线版。
+
+这个项目仅是一个游戏启动器。如果你在找游戏服务器，请看看OpenBachelor Server。
+
+Discord：[https://discord.gg/W4yPMpBv8F]（https://discord.gg/W4yPMpBv8F）
+
+## 支持环境
+
+一部已root的arm64安卓手机。
+
+一部被监禁的arm64安卓手机（带OpenBachelorG）。
+
+Mac（苹果硅）配备AVD（Android Studio）（推荐：arm64、Android 15、Google APIs Image）。
+
+> 提醒：对于AVD用户，不要使用Google Play商店的镜像，因为它不易被root。
+
+##作指南
+
+### 0.启动服务器
+
+1. 使用游戏服务器，最好是OpenBachelor服务器。
+
+### 1.设置客户端
+
+1. 安装 Python 3.12，并在路径中添加“python.exe”。
+
+2. 跑“setup.cmd”。
+
+3. 打开你的模拟器/手机设置，启用它的root权限和adb连接。
+
+4. 跑“load_config_[YOUR_DEVICE].cmd'。例如，如果你使用的是被隔离的手机（无root权限），运行“load_config_jailed_phone.cmd”。
+
+### 2.运行客户端
+
+1. 跑“main.cmd”。

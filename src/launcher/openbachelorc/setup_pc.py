@@ -6,7 +6,7 @@ from tkinter.filedialog import askopenfilename
 import lief
 
 
-FRIDA_VERSION = "17.6.2"
+FRIDA_VERSION = "16.6.6"
 FRIDA_GADGET_XZ_FILEPATH = (
     f"frida-gadget/frida-gadget-{FRIDA_VERSION}-windows-x86_64.dll.xz"
 )
