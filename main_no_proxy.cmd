@@ -1,2 +1,3 @@
-python -m pipx run poetry run main --no_proxy
+@echo off
+poetry run main --no_proxy
 pause

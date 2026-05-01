@@ -5,7 +5,7 @@ setlocal
 chcp 65001 >nul
 
 :: 设置源文件夹路径
-set "SOURCE_DIR=frida-server\1762"
+set "SOURCE_DIR=frida-server\1791"
 
 :: 设置目标文件路径
 set "TARGET_PYPROJECT=%cd%\pyproject.toml"
@@ -43,7 +43,7 @@ if errorlevel 1 (
     echo 错误: 文件替换失败
     exit /b 1
 ) else (
-    echo 已修改为frida1762
+    echo 已修改为frida1791
 )
 
 pause

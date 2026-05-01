@@ -1,2 +1,3 @@
-python -m pipx run poetry run main
+@echo off
+poetry run main
 pause
